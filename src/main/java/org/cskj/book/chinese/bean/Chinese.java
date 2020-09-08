@@ -7,12 +7,13 @@ public class Chinese {
 	private String kumu;
 	private int score;
 	
-	public Chinese(int id, String name, int age, String kumu) {
+	
+	public Chinese(int id, int age, String kumu, int score) {
 		super();
 		this.id = id;
-		this.name = name;
 		this.age = age;
 		this.kumu = kumu;
+		this.score = score;
 	}
 	public Chinese(int id, String name, int age, String kumu, int score) {
 		super();
