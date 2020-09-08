@@ -6,9 +6,13 @@ public class Chinese {
 	private int age;
 	private String kumu;
 	private int score;
-	@Override
-	public String toString() {
-		return "Chinese [id=" + id + ", name=" + name + ", age=" + age + ", kumu=" + kumu + ", score=" + score + "]";
+	
+	public Chinese(int id, String name, int age, String kumu) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.kumu = kumu;
 	}
 	public Chinese(int id, String name, int age, String kumu, int score) {
 		super();
