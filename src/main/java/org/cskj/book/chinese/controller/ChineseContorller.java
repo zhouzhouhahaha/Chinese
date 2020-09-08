@@ -17,6 +17,7 @@ public class ChineseContorller {
 	@GetMapping(value = "queryChineseAll")
 	public List<Chinese> queryChineseAll() {
 		List<Chinese> list = chineseServer.queryChineseAll();
+		System.out.println("13231");
 		System.out.println(list);
 		return list;
 
